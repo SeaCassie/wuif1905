@@ -1,0 +1,57 @@
+.bottom{
+    background-color: #373D41;
+    height: 180px;
+    border-top: 10px solid  #00C1DE ;
+}
+.bottom >ul{
+    width: 1200px;
+    margin:auto;
+    padding: 20px;
+    /*background-color: red;*/
+    overflow: hidden;
+
+}
+.bottom >ul >li{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.bottom ul .Bleft{
+    overflow: hidden;
+    width: 100px;
+    height: 130px;
+    /*background-color: orangered;*/
+    margin-right: 20px;
+}
+.bottom ul .Bleft img{
+    width: 100px;
+    height: 100px   ;
+}
+.bottom ul .Bleft p{
+    width: 100px;
+    text-align: center;
+}
+
+.bottom .Bright{
+    width: 800px;
+    /*background-color: red;*/
+    padding: 5px;
+}
+.bottom .Bright b{
+    color: #00C1DE;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+.bottom .Bright p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+.bottom .Bright p a{
+    /*display: inline;*/
+}
+.bottom .Bright p a:hover{
+    color: #00C1DE;
+}

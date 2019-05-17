@@ -1,0 +1,139 @@
+.SMbw{
+    width: 872px;
+    background-color: white;
+    min-height: 500px;
+    padding: 20px;
+
+}
+.SMBtitle{
+    height: 18px;
+    border-bottom: 1px solid #E4E3E3;
+
+    line-height: 18px;
+    color: #333333;
+    width: 842px;
+    padding: 15px 15px 15px 0px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.SMBtitle:before{
+    content: "";
+    width: 100px;
+    border-bottom: 2px solid #333333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition-duration: 1.5s;
+
+}
+.SMBtitle:hover:before{
+    width: 110px;
+
+}
+
+.SMBli{
+    /*background-color: #333333;*/
+    /*min-height: 300px;*/
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.SMBli h3 a{
+    color: #333;
+}
+
+.SMBli h3{
+    /*margin-left: -8px;*/
+    margin-bottom: 10px;
+}
+.SMBdiv{
+    /*background-color: red;*/
+    overflow: hidden;
+    position: relative;
+
+}
+.SMBdiv .SMBleft{
+    width: 200px;
+    height: 140px;
+    float: left;
+    background-color: #cccccc;
+
+}
+.SMBdiv .SMBleft a{
+    overflow: hidden;
+    font-size: 0;
+}
+.SMBdiv .SMBright{
+    width: 600px;
+    /*background-color: wheat;*/
+    float: left;
+   padding: 20px 20px 20px 10px;
+    margin-left: 10px;
+    height: 100px;
+
+}
+/*最新博文左边图片和文字的编辑*/
+.SMBdiv i{
+    padding: 2px 5px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 20px;
+    background-color: rgba(18,182,221,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+}
+/*最新博文右边文字的编辑*/
+.SMBright .SMBRtop{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-clamp:3 ;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    font-size: 14px;
+    /*padding-bottom: 15px;*/
+    line-height: 1.5;
+    color: #666;
+}
+.SMBright .SMBRbot{
+   line-height: 1.5;
+    /*position: relative;*/
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.SMBright .SMBRbot i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+
+}
+.SMBright .SMBRbot i img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.SMBright .SMBRbot span{
+    margin-right: 15px;
+    color: #999999;
+}
+.SMBright .SMBRbot span a{
+    color: #009966;
+}
+.SMBa{
+    height: 30px;
+    background-color: #12B7DE;
+    position: relative;
+    top: -21px;
+    right: -524px;
+    padding: 7px;
+    border-radius: 10px;
+}

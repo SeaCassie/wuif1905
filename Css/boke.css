@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+body{
+    font-family:宋体, 微软雅黑,sans-serif;
+    background-color: #E9EAED;
+    font-size: 16px;
+
+}
+/*以上是全局样式表*/
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #1C2327;
+
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+
+/* header导航栏的样式*/
+.headerBox{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 60px;
+    background-color: #1C2327!important;
+
+}
+.headerH2{
+    /*display: block;*/
+    float:left;
+    line-height: 60px;
+    width: 250px;
+    /*background-color: #1C2327;*/
+    color: white;
+    font-size: 22px;
+    /*background-color: #1C2327;*/
+}
+.headerMiddle{
+    /*display:inline-block;*/
+    float: left;
+    width: 700px;
+    height: 60px;
+    /*background-color: #1C2327;*/
+    color: white;
+
+    background-color: #1C2327;
+}
+
+.headerMiddle ul li a{
+    /*display: inline-block;*/
+    float: left;
+    text-align: center;
+    /*width: 100px;*/
+    margin-right: 15px;
+    line-height: 60px;
+    /*background-color: #1C2327;*/
+    /*background-color: #1C2327;*/
+    font-size: 15px;
+    color: white;
+}
+
+.headerright{
+    /*display: inline-block;*/
+    float: right;
+    width: 250px;
+    height:60px ;
+    background-image: url("https://www.yangqq.com/skin/jxhx/images/bg.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    /*background-color: #1C2327;*/
+    /*background-color: #1C2327;*/
+}

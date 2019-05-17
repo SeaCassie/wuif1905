@@ -1,0 +1,71 @@
+.shareCon{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url("http://jxhx2.yangqq.com/skin/jxhx/images/abbg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: white;
+}
+.Shareul{
+    width: 100%;
+    min-height: 500px;
+    /*background-color: #ffb69f;*/
+    margin: 0 auto 20px;
+    padding: 0 0 20px 0;
+
+
+}
+.Shareul >li{
+    height: 40px;
+}
+
+.Shareul >li >span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    /*background-color: #3bee17;*/
+    /*margin-right: 20px;*/
+    padding: 0 15px;
+    position: relative;
+    color: #999999;
+    font-size: 15px;
+    font-family: Microsoft YaHei;
+
+}
+.Shareul >li >span:after{
+    content: "";
+    height: 100%;
+    width: 2px;
+    border-right: 2px solid #CCCACA;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Shareul >li >span:nth-child(2):after{
+    border-right: none;
+}
+
+.Shareul >li > .li-right{
+    position: relative;
+    color:#333333;
+    font-size: 15px;
+    font-family: Microsoft YaHei;
+
+}
+.Shareul >li >.li-right:before{
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid #CCCACA;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Shareul >li >.li-right:hover:before{
+    background-color: #333333;
+}

@@ -1,0 +1,39 @@
+.bwxq{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bwxq>h1{
+    font-family: 微软雅黑;
+    font-size: 22px;
+    margin: 20px 0;
+}
+.bwxq > .firstP>span:nth-child(1){
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+.bwxq > .firstP>span{
+    color: #999999;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin: 0 5px;
+}
+.bwxq >.SecondP{
+    width: 860px;
+    height: 67px;
+    background-color: #f6f6f6;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    padding: 10px 10px 0 10px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2 ;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
