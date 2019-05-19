@@ -1,0 +1,425 @@
+header{
+    width: 7.2rem;
+    height: 1rem;
+    background-color: #fbfeff;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    line-height: 1rem;
+    padding: 0 0.15rem;
+
+}
+section{
+    width: 100%;
+    height: 6.7rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.goodsInf{
+    width: 100%;
+    height: 2.3rem;
+    box-sizing: border-box;
+    padding: 0.25rem 0.25rem 0 0.25rem;
+    /*box-sizing: border-box;*/
+
+}
+.goodsInf >ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.goods-title{
+    /*width: 2.47rem;*/
+    height: 0.29rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.6);
+}
+.goods-content{
+    width: 6.84rem;
+    height: 0.55rem;
+    font-size: 0.22rem;
+    /*line-height: 0.32rem;*/
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.3);
+}
+.goods-detail{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.goods-detail>p:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-detail>p>.goods-span{
+    width: 1.08rem;
+    height: 0.25rem;
+    color:#fbb548;
+    font-size: 0.26rem;
+}
+.goods-price{
+    color: #41b2fc;
+    /*width: 1.88rem;*/
+    width: 0.78rem;
+    height: 0.36rem;
+    background-color: rgba(65 ,178, 252 ,0.1);
+    border-radius: 0.18rem;
+    letter-spacing: 0.01rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.36rem;
+    margin-right: 0.3rem;
+
+}
+.goods-serive{
+    color: #36d681;
+    width: 1.13rem;
+    height: 0.36rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    border-radius: 0.18rem;
+    background-color: rgba(54,214,129,0.1);
+    text-align: center;
+    line-height: 0.36rem;
+
+}
+.goods-detail>p:nth-child(2){
+    color:rgba(0,0,0,0.3);
+    font-size: 0.2rem;
+}
+.goods-detail>p:nth-child(2)>span:nth-child(1){
+    color: 	rgba(54, 214, 129, 0.4);
+}
+.goods-detail>p:nth-child(2)>span:nth-child(2){
+	color: #36a8fe;
+    font-size: 0.24rem;
+}
+
+.goodsYh{
+    width: 100%;
+    height: 0.89rem;
+    color: #ff844e;
+    display: flex;
+    padding: 0.25rem 0.1rem;
+    box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+    border-top: 1px solid rgba(216, 223, 227, 0.3);
+    border-bottom : 1px solid rgba(216, 223, 227, 0.3);
+
+}
+.goodsYh>span{
+    padding: 0.10rem;
+
+}
+.goodsYh>span:nth-child(3){
+    width: 1.84rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    background-image:linear-gradient(270deg, #ffca3b, #ff933b);
+    text-align: center;
+    box-shadow: 0rem 0.04rem 0.16rem 0rem
+    rgba(255, 142, 81, 0.3);
+    color: white;
+
+}
+.goodsBz{
+    border-bottom: 1px solid rgba(216, 223, 227, 0.3);
+    padding: 0.3rem;
+}
+
+.goodsBz>span{
+    color: #41b2fc;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    padding: 0 0.3rem;
+    position: relative;
+}
+.goodsBz>span:before{
+    content: "";
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.08rem;
+    background-color: #3bee17;
+
+}
+
+
+/*评价栏下的布局*/
+.goodsEva{
+    border-bottom : 0.01rem solid rgba(216, 223, 227, 0.3);
+}
+.goodsEva>p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-bottom : 0.01rem solid rgba(216, 223, 227, 0.3);
+}
+.goodsEva>p>span:nth-child(1){
+    color: #4f5b64;
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    line-height: 0.4rem;
+    position: relative;
+    padding-left: 0.3rem;
+}
+.goodstitle>span:nth-child(1)>span{
+    color:#41b2fc;
+}
+.goodstitle>span:nth-child(1)>span:before{
+    content: "";
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.08rem;
+    background-color: #3bee17;
+
+}
+.goodsEva>p>span:nth-child(3){
+    color:#41b2fc;;
+}
+.goodsEva>p>span:nth-child(3)>span:nth-child(2){
+    color: rgba(65, 178, 252, 0.5);
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.18rem;
+}
+.goodsEva>p>span:nth-child(3)>span:nth-child(1){
+
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.18rem;
+}
+.goodsEva>ul>li{
+    box-sizing: border-box;
+    padding: 0.2rem 0;
+    /*border-bottom: 0.1rem solid black;*/
+}
+.goodsEva>ul >li >p:nth-child(1){
+    /*display: block;*/
+    width: 1.15rem;
+    hieght:1.7rem;
+    /*background-color: #00C1DE;*/
+    float: left;
+    text-align: center;
+}
+.goodsEva>ul >li >p:nth-child(1)>img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius:50%;
+}
+.goodsEva>ul >li >p:nth-child(2){
+
+    margin-left:1.35rem;
+    /*height:1.5rem;*/
+    /*background-color: #3bee17;*/
+    width: calc(100% - 1.35rem);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.goodsDetail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-size: 0.2rem;
+    align-items: center;
+
+}
+
+.goodsDetail>span:nth-child(1){
+    color: #cfcfcf;
+    width: 0.8rem;
+    padding: 0 0.1rem 0 0;
+
+}
+.goodsDetail>span:nth-child(4){
+    color:#9ed5ff;
+    font-size: 0.22rem;
+}
+.goodsxx{
+    height: 0.2rem;
+    width: 1.0rem;
+    display: flex;
+    justify-content: left;
+    margin-left: -1.2rem;
+}
+.goodsSer{
+
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    /*height: 0.3rem;*/
+    padding: 0.15rem 0;
+}
+.goodsadd{
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.3);
+
+}
+.goodsadd >span{
+padding-right: 0.2rem;
+}
+.goodsimg >img{
+
+    width: 1.8rem;
+    height: 1.0rem;
+}
+
+
+/*商品详情*/
+.goodsxq{
+    height: 0.9rem;
+    width: 100%;
+    border-bottom : 0.01rem solid rgba(216, 223, 227, 0.3);
+    font-size: 0.32rem;
+    height: 0.4rem;
+    padding: 0.3rem 0.50rem;
+    /*background-color: #3bee17;*/
+    letter-spacing: 0.02rem;
+    color: #35db82;
+}
+.goodsxq >span:nth-child(1){
+    position: relative;
+}
+.goodsxq >span:nth-child(1):before{
+    content: "";
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.16rem;
+    left: -0.16rem;
+    background-color: #3bee17;
+
+}
+.goodsxq >span:nth-child(2){
+    color: #4f5b64;
+
+}
+/*相似商品*/
+.goodsmil ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goodsmil li{
+    width: 2.5rem;
+    height: 3.0rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.goodsmil>ul>li>p:nth-child(1)>img{
+    width: 1.5rem;
+    height: 1.9rem;
+}
+.goodsmil>ul>li>p:nth-child(2){
+   font-size: 0.26rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.01rem;
+
+}
+.goodsmil>ul>li>p:nth-child(3){
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+
+/*底部栏布局*/
+.goodsBot{
+    overflow: hidden;
+    width: 100%;
+    height: 1.1rem;
+}
+.goodsBot>ul{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 0.25rem;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.goodsBot>ul>li:nth-child(1){
+    width: 35%;
+    /*background: sandybrown;*/
+
+
+}
+
+
+.goodsBot>ul>li:nth-child(2){
+    width: 60%;
+    /*background: sandybrown;*/
+
+}
+.goodsBot>ul>li{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.goodsBot>ul>li>span{
+
+    /*height: 0.8rem;*/
+    display: flex;
+    flex-wrap: nowrap;
+    /*justify-content: left;*/
+    flex-direction: column;
+    align-items: center;
+}
+.goodsBot>ul>li:nth-child(1)>span:nth-child(1){
+    color: #64b7ff;
+}
+.goodsBot>ul>li:nth-child(1)>span:nth-child(2){
+    color: #2ed977;
+}
+.goodsBot>ul>li:nth-child(2)>span:nth-child(1){
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #37e06f;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    color: #FFFFFF;
+
+    box-shadow: 0rem 0.04rem 0.2rem 0rem
+    rgba(55, 223, 116, 0.75);
+}
+.goodsBot>ul>li:nth-child(2)>span:nth-child(2){
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #3bacfe;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    color: #FFFFFF;
+    box-shadow: 0rem 0.05rem 0.12rem 0rem
+    rgba(59, 172, 254, 0.43);
+}
+.word{
+    font-size: 0.5rem;
+}
