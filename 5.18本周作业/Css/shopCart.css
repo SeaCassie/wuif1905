@@ -1,0 +1,330 @@
+body{
+    width: 100%;
+    height: 13.34rem;
+
+}
+.first{
+    /*display: none;*/
+    width: 100%;
+    height: 12.34rem;
+    overflow: hidden;
+}
+.scond{
+    display: none;
+}
+
+.shopCart{
+    width: 7.5rem;
+
+
+}
+.shopCart >ul {
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 0 0.2rem 0.2rem 0.2rem;
+    overflow-y: scroll;
+    height: 11.34rem;
+
+
+}
+.shopCart>ul>li{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    padding:  0.35rem 0;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.06);
+}
+
+.shopCart>ul >li >p{
+    display: flex;
+    justify-content: space-between;
+
+}
+.shopCart>ul >li >p:nth-child(1){
+    height: 0.53rem;
+    font-size: 0.24rem;
+    color: #3bacfe;
+
+}
+.jiantou{
+    font-size: 0.15rem;
+}
+.duigou:before{
+    display: inline-block;
+    content: '√';
+    color:#FFFFFF;
+    font-size: 0.05em;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color:#e7f6ff;;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.05rem;
+    left: 0;
+    box-shadow: 0rem 0.04rem 0.2rem 0rem
+    rgba(55, 223, 116, 0.75);
+}
+.duigou{
+    position: relative;
+    padding-left: 0.35rem;
+}
+
+.duigou:hover:before{
+
+    background-color: #6cff96;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.shopCart>ul >li >p:nth-child(2){
+    height: 2rem;
+
+
+
+}
+
+.shopCart>ul >li >p:nth-child(2)>span:nth-child(1){
+    width:2.5rem ;
+    height: 1.75rem;
+    padding-left: 0.7rem;
+
+}
+.shopCart>ul >li>p:nth-child(2)>span:nth-child(1):before{
+    content: '';
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #e7f6ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.74rem;
+    left: 0.16rem;
+
+
+}
+.shopCart>ul >li>p:nth-child(2)>span:nth-child(1):hover:before{
+    background-color: #3bee17;
+}
+
+
+
+.shopCart>ul >li >p:nth-child(2)>span:nth-child(2){
+    width: 4.8rem;
+    height: 1.75rem;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.shopspan{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.shopspan>span:nth-child(1){
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.shopspan>span:nth-child(2){
+    display: inline-block;
+    color: #36a8fe;
+    height: 0.4rem;
+    /*background-color: #3bee17;*/
+    line-height: 0.4rem;
+
+
+}
+/*.shopspan>span:nth-child(2)>span{*/
+/*    display: inline-block;*/
+/*}*/
+
+
+.price{
+    font-size: 0.26rem;
+    color: #8e9397;
+}
+
+
+/*底部栏*/
+.heji{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(59, 172, 254, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+
+
+
+.heji>p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #3bacfe;
+    padding-left: 0.22rem;
+}
+.hejitop{
+    font-size: 0.24rem;
+    position: relative;
+}
+.hejitop:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background-color:#3bacfe ;
+    position: absolute;
+    top: 0.28rem;
+    left: -0.13rem;
+}
+
+.hejitop>span{
+    font-size: 0.36rem;
+}
+.hejibot{
+    font-size: 0.2rem;
+
+}
+.hejibot>span{
+    margin-right: 0.2rem;
+    position: relative;
+}
+
+.hejibot>span:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background-color:#3bacfe ;
+    position: absolute;
+    top: 0.10rem;
+    left: -0.13rem;
+}
+
+
+
+.hejiright{
+    width: 3.8rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0rem 0.04rem 0.2rem 0rem
+    rgba(55, 223, 116, 0.75);
+    text-align: center;
+    color: white;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+}
+
+/*全选按钮的设置*/
+.allSelect{
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    font-size:0.16rem ;
+    color: #3bacfe;
+    padding-left: 0.55rem;
+
+}
+.allSelect:before{
+    content: "";
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #e7f6ff;
+
+    position: absolute;
+    top: 0;
+    left: 0.3rem;
+    border-radius: 50%;
+}
+.allSelect:hover:before{
+    background-color:#3bacfe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*当存在空购物车*/
+.free{
+
+    padding:2rem;
+    height: 9rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfeff;
+
+}
+.freeP{
+    width: 100%;
+    height: 0.26rem;
+
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.35rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.4;
+    text-align: center;
+    margin-bottom: 0.1rem;
+
+}
+
+.freebtn{
+    width: 3rem;
+    height: 0.8rem;
+    border-radius: 0.3rem;
+    /*background-color: #3bee17;*/
+    font-size: 0.3rem;
+    color: #fbfeff;
+    text-align: center;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0rem 0rem 0rem 0rem
+    rgba(55, 223, 116, 0.75);
+}
