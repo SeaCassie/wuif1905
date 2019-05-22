@@ -9,6 +9,7 @@ header{
     justify-content:space-between;
     line-height: 1rem;
     padding: 0 0.15rem;
+    box-sizing: border-box;
 
 }
 header>a{
@@ -137,6 +138,7 @@ section{
 .goodsBz{
     border-bottom: 1px solid rgba(216, 223, 227, 0.3);
     padding: 0.3rem;
+    box-sizing: border-box;
 }
 
 .goodsBz>span{
@@ -295,6 +297,7 @@ padding-right: 0.2rem;
     /*background-color: #3bee17;*/
     letter-spacing: 0.02rem;
     color: #35db82;
+    box-sizing: border-box;
 }
 .goodsxq >span:nth-child(1){
     position: relative;
