@@ -11,6 +11,10 @@ header{
     padding: 0 0.15rem;
 
 }
+header>a{
+    color: #3bacfe;
+}
+
 section{
     width: 100%;
     height: 6.7rem;
