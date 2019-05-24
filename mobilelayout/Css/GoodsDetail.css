@@ -1,5 +1,5 @@
 header{
-    width: 7.2rem;
+    width: 7.5rem;
     height: 1rem;
     background-color: #fbfeff;
     color: #4ebbfe;
@@ -432,4 +432,7 @@ padding-right: 0.2rem;
 }
 .word{
     font-size: 0.5rem;
+}
+.goodsYh>span>a{
+    color:#ffca3b;
 }
