@@ -71,6 +71,9 @@ img{
     font-size: 15px;
     color: white;
 }
+.headerMiddle >ul >li >a.active{
+        color: #00C1DE;
+}
 
 .headerright{
     /*display: inline-block;*/
@@ -83,3 +86,5 @@ img{
     /*background-color: #1C2327;*/
     /*background-color: #1C2327;*/
 }
+
+
