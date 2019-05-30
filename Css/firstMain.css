@@ -16,6 +16,7 @@
     /*background:#89857C ;*/
     margin-right: 20px;
     position: relative;
+    cursor: pointer;
 
 
 
@@ -23,7 +24,7 @@
 .FMO >.MBGright {
     width: 40px;
     height: 32px;
-
+    opacity: 0;
     position: absolute;
     top: 50%;
     right: 50px;
@@ -35,7 +36,7 @@
 .FMO >.MBGleft{
     width: 40px;
     height: 32px;
-
+    opacity:0;
     position: absolute;
     top: 50%;
     left: 50px;
@@ -206,4 +207,22 @@
 }
 .MRLi4{
     background-image: url("https://www.yangqq.com/skin/jxhx/images/c04.png");
+}
+
+
+@keyframes jiantou {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes jiantou1 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
 }

@@ -37,12 +37,14 @@
 .SMLtop .SMLTone{
     border-bottom: 1px solid #E4E3E3;
     overflow: hidden;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
 }
 .SMLTone li{
     float: left;
     margin-left: 20px;
+    padding-bottom: 15px;
     position: relative;
+    cursor: pointer;
 }
 .SMLTone li a{
     color: #333333;
@@ -114,6 +116,12 @@
 .SMLTright >ul >li{
     padding: 0 15px;
     height: auto;
+    /*border:1px solid rgba(0, 0, 0, 0.27);*/
+
+
+}
+.activeli{
+    background-color: rgba(0, 0, 0, 0.27);
 }
 .SMLTright >ul >li >h2 >a{
     color: #333333;
@@ -145,12 +153,13 @@
     line-height: 1.6;
     font-size: 14px;
     padding: 5px 0;
-
-    /*display: none;*/
+    display: none;
     color: #333333;
 
 }
-
+.SMLTright >ul >li.activeli >p{
+display: block;
+}
 
 
 
