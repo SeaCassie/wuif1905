@@ -17,6 +17,7 @@
     margin-right: 20px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 
 
 
@@ -54,7 +55,7 @@
 }
 .FMO > .MBGbot  >li{
     float: left ;
-  
+
     margin-left: 8px;
     width: 8px;
     height: 8px;
@@ -79,7 +80,8 @@
     font-size: 0;
     position: absolute;
     top: 0px;
-    left: 0;
+    left: 620px;
+    /*opacity: 0;*/
 }
 .Mleft >li >a >img{
     width: 620px;
@@ -200,6 +202,7 @@
 }
 
 .MRLi2{
+
     background-image: url("https://www.yangqq.com/skin/jxhx/images/c02.png");
 }
 .MRLi3{
