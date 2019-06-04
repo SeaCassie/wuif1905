@@ -137,23 +137,6 @@ window.onload=function () {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //
         // //清空圆点的样式
         function fn1(arr) {

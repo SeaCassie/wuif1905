@@ -200,7 +200,7 @@
    callback 回调函数 
    */
   
-   function animate (obj,attrObj,dur,fun,callback) {
+       function animate (obj,attrObj,dur,fun,callback) {
 	 clearInterval(obj.t);
 	if(arguments.length==2){
 	  dur=500;

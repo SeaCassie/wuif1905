@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>分享记录界面</title>
+    <title>留言板</title>
     <link rel="stylesheet" href="./Css/share.css">
     <link rel="stylesheet" href="./Css/boke.css">
     <link rel="stylesheet" href="./Css/title.css">
     <link rel="stylesheet" href="./Css/bottom.css">
+    <link rel="stylesheet" href="./Css/Message.css">
+    <script src="./Js/meassage.js"></script>
 </head>
 <body>
 <!--首页导航栏的上布局-->
@@ -20,7 +22,7 @@
                 <li class="headerMenu"><a href="./selfboke1.html">个人博客日记</a></li>
                 <li class="headerMenu"><a href="./selfboke.html">个人博客模板</a></li>
                 <li class="headerMenu"><a href="./webSj.html">网站设计心得</a></li>
-                <li class="headerMenu"><a href="./share.html" class="active">时间轴</a></li>
+                <li class="headerMenu"><a href="./share.html" >时间轴</a></li>
                 <li class="headerMenu"><a href="">优秀个人博客</a></li>
                 <li class="headerMenu"><a href="./myself.html">关于我</a></li>
                 <li class="headerMenu"><a href="./Message.html" class="active">留言板</a></li>
@@ -30,28 +32,44 @@
 
     </div>
 </div>
-<div class="shareCon">
-    <div class="title">往期文章</div>
-    <ul class="Shareul">
-        <li><span>2018-10-18</span><span class="li-right">遇见一个未知的你</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
-        <li><span>2018-10-18</span><span class="li-right">上传了精美网站的案例</span></li>
+<div class="message">
+    <div class="Mestitle">留言</div>
+    <form id="Messageform" >
+        <h4>来说点什么吧....</h4>
+        <div class="MeassageName">您的姓名:<input type="text" >*</div>
+        <div class="MeassageHead">
+            <p>您的头像:</p>
+            <div>
+                <img src="./image/tx1.jpg" alt="">
+                <img src="./image/tx2.jpg" alt="">
+                <img src="./image/tx3.jpg" alt="">
+                <img src="./image/tx4.jpg" alt="">
+                <img src="./image/tx5.jpg" alt="">
+                <img src="./image/tx6.jpg" alt="">
+                <img src="./image/tx7.jpg" alt="">
+                <img src="./image/tx8.jpg" alt="">
+            </div>
 
-        
+        </div>
+        <div class="meassageContent">
+            <p>留言内容：<span>已留言0字</span></p>
+            <textarea name="" id="" cols="30" rows="8" >
+
+            </textarea>
+        </div>
+        <div class="messageButton">
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </div>
+
+    </form>
+    <ul class="MeassageUl">
+
 
     </ul>
+
+
+
 </div>
 <!--    底部栏的布局-->
 <div class="bottom">

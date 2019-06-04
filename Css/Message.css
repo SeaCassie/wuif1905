@@ -1,0 +1,142 @@
+.message{
+    width: 80%;
+    background-color: #ffffff;
+    min-height: 500px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.Mestitle{
+    height: 41px;
+    /*background-color: #3bacfe;*/
+    font-size: 16px;
+    line-height: 41px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    position: relative;
+    color: #484848;
+}
+.Mestitle:before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 60px ;
+    border-bottom: 2px solid #000000;
+    transition-duration: 2s;
+}
+.Mestitle:hover:before{
+    content: "";
+    width: 100px;
+}
+
+
+
+form{
+    display: block;
+    width: 100%;
+    /*height: 500px;*/
+    /*background-color: #cafff1;*/
+}
+form>h4{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.MeassageName{
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+.MeassageName>input{
+    outline: none;
+
+}
+.MeassageHead{
+    margin-bottom: 10px;
+}
+.MeassageHead>p{
+        font-size: 15px;
+    color: #333333;
+}
+.MeassageHead>div>img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+}
+.meassageContent>p{
+    font-size: 15px;
+    color: #333333;
+    height: 20px;
+    line-height: 20px;
+}
+.meassageContent>textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+}
+.messageButton{
+    width: 100%;
+overflow: hidden;
+}
+.messageButton>input{
+    box-sizing: border-box;
+    width: 66px;
+    padding: 5px;
+    height: 30px;
+    outline: none;
+    color: #ffffff;
+    background-color: rgba(51, 51, 51, 0.69);
+    border:none;
+    float: right;
+    margin-left: 20px   ;
+}
+
+.MeassageUl{
+    margin-bottom: 20px;
+}
+.Meassageli{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Meassageli>span:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1100px;
+
+
+}
+
+.repaly{
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 30px;
+    /*line-height: 30px;*/
+
+    padding: 5px 20px;
+}
+.meassageSpan{
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /*width: 80%;*/
+}
+.Meassageli>span:nth-child(1){
+
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+
+}
+.meassagebottom{
+    padding: 5px;
+    box-sizing: border-box;
+}
