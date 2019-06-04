@@ -56,15 +56,10 @@ window.onload=function(){
                <li class="repaly">博主：谢谢留言</li> 
        </ul>`
         Ul.innerHTML=html+Ul.innerHTML;
-            console.log(form.reset)
-            console.dir(form);
-
-
+            form.reset();
+            spanConent.innerHTML="已留言0字"
         }
-    function formreset() {
 
-        form.reset();
-    }
     function Messreset() {
 
 
